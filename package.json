@@ -1,0 +1,23 @@
+{
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "homepage": "https://Faizan-Kakar.github.io/Burger_builder",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.2.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
